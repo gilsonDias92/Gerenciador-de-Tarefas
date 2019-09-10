@@ -6,6 +6,7 @@
 <h3>Cadastrar tarefa</h3>
 
 <form method="POST">
+    {% csrf_token %}
     <div class="form-group">
         <label>Titulo: </label>
         {{ form_tarefa.tituloo|addclass:'form-control w-50'}}
