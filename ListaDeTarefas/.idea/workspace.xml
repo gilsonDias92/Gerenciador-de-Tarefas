@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3eb90-54b2-4f4c-97bf-2f94d1e0cd0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" afterDir="false" />
     </list>
@@ -34,15 +16,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1QVylRkAnJ7hrP0iP2N6Gx6hKwN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

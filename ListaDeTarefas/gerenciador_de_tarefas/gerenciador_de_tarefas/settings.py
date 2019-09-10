@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'gerenciador_de_tarefas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'gerenciador_tarefas'),
+        'NAME': 'gerenciador_tarefas',
         'USER': 'developer',
         'PASSWORD': '123456789',
         'HOST': 'localhost',
