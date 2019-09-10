@@ -1,5 +1,4 @@
 {% extends 'base.html '%}
-
 {% block conteudo %}
 
 <h1>Tarefas:</h1>
@@ -19,8 +18,6 @@
 </div>
 {%endfor%}
 
-<a href="{% url 'cadastrar_tarefa '%]" class="btn btn-primary">
+<a href="{% url 'cadastrar_tarefa' %}" class="btn btn-primary">
     Cadastrar Tarefa</a>
-
-
 {% endblock conteudo%}
