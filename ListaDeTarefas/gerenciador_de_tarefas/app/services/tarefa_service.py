@@ -5,3 +5,10 @@ def cadastrar_tarefa(tarefa):
                           descricao=tarefa.descricao,
                           data_expiracao=tarefa.data_expiracao,
                           prioridade=tarefa.prioridade)
+
+
+# retorna todas as tarefas cadastradas no banco de dados
+# SELECT * FROM app_tarefa
+def listar_tarefas():
+    return Tarefa.objects.all()
+

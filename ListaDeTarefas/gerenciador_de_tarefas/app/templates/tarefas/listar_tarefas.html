@@ -2,11 +2,25 @@
 
 {% block conteudo %}
 
-<h1>Listar Tarefas</h1>
-    <ul>
-        <li>
-            {{nome_tarefa}}
-        </li>
-    </ul>
+<h1>Tarefas:</h1>
+{% for tarefa in tarefas %}
+<div class="card mb-3">
+    <div class="card-header">
+        {{ tarefa.get_prioridade_display }}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ tarefa.tituloo }}
+        </h5>
+        <p class="card-text lead">
+            {{ tarefa.descricao}}
+        </p>
+    </div>
+</div>
+{%endfor%}
+
+<a href="{% url 'cadastrar_tarefa '%]" class="btn btn-primary">
+    Cadastrar Tarefa</a>
+
 
 {% endblock conteudo%}

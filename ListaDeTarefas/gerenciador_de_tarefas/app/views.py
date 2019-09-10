@@ -6,9 +6,11 @@ from .services import tarefa_service
 
 
 def listar_tarefas(request):
-    nome_tarefa = "Aula de inglês - 16h"
+    tarefas = tarefa_service.listar_tarefas()
+    # capturando todas as tarefas
+
     return render(request, 'tarefas/listar_tarefas.html',
-    {"nome_tarefa": nome_tarefa})
+    {"tarefas": tarefas})
 
 
 def cadastrar_tarefa(request):
