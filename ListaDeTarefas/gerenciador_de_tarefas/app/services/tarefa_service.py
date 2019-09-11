@@ -24,3 +24,7 @@ def editar_tarefa(tarefa_bd, tarefa_nova):
     tarefa_bd.data_expiracao = tarefa_nova.data_expiracao
     tarefa_bd.prioridade = tarefa_nova.prioridade
     tarefa_bd.save(force_update=True)
+
+
+def remover_tarefa(tarefa_bd):
+    tarefa_bd.delete()

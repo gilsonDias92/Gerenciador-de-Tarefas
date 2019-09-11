@@ -3,17 +3,22 @@
 
 <h1>Tarefas:</h1>
 {% for tarefa in tarefas %}
-<div class="card mb-3">
-    <div class="card-header">
+<div class="card mb-3 w-50">
+    <div class="card-header bg-warning text-dark font-weight-bold">
         {{ tarefa.get_prioridade_display }}
     </div>
-    <div class="card-body">
-        <h5 class="card-title">
+    <div class="card-body bg-dark">
+        <h5 class="card-title text-warning">
             {{ tarefa.tituloo }}
         </h5>
-        <p class="card-text lead">
+        <p class="card-text lead text-warning">
             {{ tarefa.descricao}}
         </p>
+        <hr class="border-warning">
+        <a href="{% url 'editar_tarefa' tarefa.id %}"
+           class="btn btn-outline-warning">Editar tarefa</a>
+        <a href="{% url 'remover_tarefa' tarefa.id %}"
+           class="btn btn-outline-danger">Excluir tarefa</a>
     </div>
 </div>
 {%endfor%}

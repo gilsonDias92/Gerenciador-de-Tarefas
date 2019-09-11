@@ -53,3 +53,11 @@ def editar_tarefa(request, id):
         return redirect('listar_tarefas')
     return render(request, 'tarefas/form_tarefa.html', {"form_tarefa": form_tarefa})
 
+
+def remover_tarefa(request, id):
+    tarefa_bd = tarefa_service.listar_tarefa_id(id)
+    if request.method == "POST":
+        tarefa_service.remover_tarefa(tarefa_bd)
+        return redirect('listar_tarefas')
+    return render(request, 'tarefas/confirma_exclusao.html', {'tarefa': tarefa_bd})
+
