@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
-from .forms import TarefaForm
-from .entidades.tarefa import Tarefa
-from .services import tarefa_service
+from ..forms import TarefaForm
+from ..entidades.tarefa import Tarefa
+from ..services import tarefa_service
 # renderizar template
 
 

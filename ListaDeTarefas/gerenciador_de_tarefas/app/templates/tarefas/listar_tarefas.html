@@ -3,9 +3,9 @@
 
 <h1>Tarefas:</h1>
 {% for tarefa in tarefas %}
-<div class="card mb-3 w-50">
+<div class="card mb-3 w-75">
     <div class="card-header bg-warning text-dark font-weight-bold">
-        {{ tarefa.get_prioridade_display }}
+        <span>Prioridade: {{ tarefa.get_prioridade_display }}</span>
     </div>
     <div class="card-body bg-dark">
         <h5 class="card-title text-warning">
@@ -16,9 +16,11 @@
         </p>
         <hr class="border-warning">
         <a href="{% url 'editar_tarefa' tarefa.id %}"
-           class="btn btn-outline-warning">Editar tarefa</a>
+           class="btn btn-warning w-25" title="Editar tarefa nº {{ tarefa.id }}">
+            <i class="fas fa-edit fa-2x text-light"></i></a>
         <a href="{% url 'remover_tarefa' tarefa.id %}"
-           class="btn btn-outline-danger">Excluir tarefa</a>
+           class="btn btn-danger w-25" title="Exlcuir tarefa nº {{ tarefa.id }}">
+            <i class="fas fa-trash-alt fa-2x"></i></a>
     </div>
 </div>
 {%endfor%}
