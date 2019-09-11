@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a3eb90-54b2-4f4c-97bf-2f94d1e0cd0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/entidades/tarefa.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/entidades/tarefa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templatetags/meus_filtros.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templatetags/meus_filtros.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/tarefa_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/tarefa_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/usuario_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/usuario_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

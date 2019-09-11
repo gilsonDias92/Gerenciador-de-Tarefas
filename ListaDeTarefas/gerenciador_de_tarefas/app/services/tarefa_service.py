@@ -4,13 +4,13 @@ def cadastrar_tarefa(tarefa):
     Tarefa.objects.create(tituloo=tarefa.tituloo,
                           descricao=tarefa.descricao,
                           data_expiracao=tarefa.data_expiracao,
-                          prioridade=tarefa.prioridade)
-
+                          prioridade=tarefa.prioridade,
+                          usuario=tarefa.usuario)
 
 # retorna todas as tarefas cadastradas no banco de dados
 # SELECT * FROM app_tarefa
-def listar_tarefas():
-    return Tarefa.objects.all()
+def listar_tarefas(usuario):
+    return Tarefa.objects.filter(usuario=usuario).all()
 
 
 def listar_tarefa_id(id):

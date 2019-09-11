@@ -29,7 +29,7 @@ def logar_usuario(request):
             return redirect('listar_tarefas')
         else:
             # se nao, mostramos mensagem de erro e se mantem na tela de login
-            messages.error(request, "As credenciais do usuário estã incorretas.")
+            messages.error(request, "As credenciais do usuário estão incorretas.")
             return redirect('logar_usuario')
     else:
         # se nao for post criamos uma instancia vazia

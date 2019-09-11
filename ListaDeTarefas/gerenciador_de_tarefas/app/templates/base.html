@@ -37,13 +37,11 @@
                 <li class="nav-item active">
                     <a class="nav-link text-warning" title="Editar usuário" href="">
                         <i class="fas fa-user-edit text-warning fa-2x"></i></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-danger" title="Deslogar usuário" href="{% url 'deslogar_usuario' %}">
-                        <i class="fas fa-power-off fa-2x"></i></span></a>
-                </li>
             </ul>
         </div>
+        <span class="float-right text-warning"> Bem vindo, {{ user.username }}</span>
+        <a class="nav-link text-danger" title="Deslogar usuário" href="{% url 'deslogar_usuario' %}">
+                        <i class="fas fa-power-off fa-2x"></i></span></a>
     </div>
 </nav>
 <main class="container">
