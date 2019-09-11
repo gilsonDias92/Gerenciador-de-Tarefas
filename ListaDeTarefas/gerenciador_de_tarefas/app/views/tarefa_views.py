@@ -6,11 +6,13 @@ from ..entidades.tarefa import Tarefa
 from ..services import tarefa_service
 # renderizar template
 
+
 @login_required()
 def listar_tarefas(request):
     tarefas = tarefa_service.listar_tarefas(request.user)
     # capturando todas as tarefas
     return render(request, 'tarefas/listar_tarefas.html', {"tarefas": tarefas})
+
 
 @login_required()
 def cadastrar_tarefa(request):
@@ -32,12 +34,15 @@ def cadastrar_tarefa(request):
         form_tarefa = TarefaForm()
     return render(request, 'tarefas/form_tarefa.html', {"form_tarefa": form_tarefa})
 
+
 @login_required()
 def editar_tarefa(request, id):
     # buscar qual tarefa quero editar no bd
     tarefa_bd = tarefa_service.listar_tarefa_id(id)
+
     if tarefa_bd.usuario != request.user:
         return HttpResponse("Não permitido")
+
     # criamos o form com base nas informacoes que vieram do banco de dados
     form_tarefa = TarefaForm(request.POST or None, instance=tarefa_bd)
     # quando alterarmos as infos e clicar em 'salvar' verificamos se as mesmas sao validas
@@ -57,6 +62,7 @@ def editar_tarefa(request, id):
         tarefa_service.editar_tarefa(tarefa_bd, tarefa_nova)
         return redirect('listar_tarefas')
     return render(request, 'tarefas/form_tarefa.html', {"form_tarefa": form_tarefa})
+
 
 @login_required()
 def remover_tarefa(request, id):

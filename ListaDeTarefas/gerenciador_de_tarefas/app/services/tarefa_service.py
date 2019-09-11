@@ -1,5 +1,6 @@
 from ..models import Tarefa
 
+
 def cadastrar_tarefa(tarefa):
     Tarefa.objects.create(tituloo=tarefa.tituloo,
                           descricao=tarefa.descricao,
@@ -9,6 +10,8 @@ def cadastrar_tarefa(tarefa):
 
 # retorna todas as tarefas cadastradas no banco de dados
 # SELECT * FROM app_tarefa
+
+
 def listar_tarefas(usuario):
     return Tarefa.objects.filter(usuario=usuario).all()
 

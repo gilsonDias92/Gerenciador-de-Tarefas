@@ -1,6 +1,17 @@
 {% extends 'base.html '%}
 {% block conteudo %}
 
+{% if tarefas.count == 0 %}
+
+<div class="jumbotron container bg-dark text-center">
+    <h3 class="text-warning">Você ainda não possui tarefas.</h3>
+    <p class="lead text-white">Clique no botão abaixo para cadastrar sua primeira tarefa.</p>
+    <hr class="my-4 border-warning">
+    <a class="btn btn-warning btn-lg" href="{% url 'cadastrar_tarefa' %}" role="button">Cadastrar</a>
+</div>
+
+{% else %}
+
 <h1>Tarefas de {{ user.username}}</h1>
 {% for tarefa in tarefas %}
 <div class="card mb-3 w-75">
@@ -27,4 +38,6 @@
 
 <a href="{% url 'cadastrar_tarefa' %}" class="btn btn-primary">
     Cadastrar Tarefa</a>
+{% endif %}
+
 {% endblock conteudo%}

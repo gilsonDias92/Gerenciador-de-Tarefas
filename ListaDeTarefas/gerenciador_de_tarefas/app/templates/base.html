@@ -5,7 +5,8 @@
     <!-- template tag executa um codigo python -->
     <link href="{% static 'app/css/bootstrap.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+          crossorigin="anonymous">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
@@ -39,7 +40,11 @@
                         <i class="fas fa-user-edit text-warning fa-2x"></i></span></a>
             </ul>
         </div>
-        <span class="float-right text-warning"> Bem vindo, {{ user.username }}</span>
+        <span class="float-right text-warning">
+            {% if user.is_authenticated %}
+                Bem vindo, {{ user.username }}
+            {% endif %}
+        </span>
         <a class="nav-link text-danger" title="Deslogar usuário" href="{% url 'deslogar_usuario' %}">
                         <i class="fas fa-power-off fa-2x"></i></span></a>
     </div>
