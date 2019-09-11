@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a3eb90-54b2-4f4c-97bf-2f94d1e0cd0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/confirma_exclusao.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/confirma_exclusao.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

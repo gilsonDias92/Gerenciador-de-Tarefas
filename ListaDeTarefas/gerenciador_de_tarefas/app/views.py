@@ -55,6 +55,7 @@ def editar_tarefa(request, id):
 
 
 def remover_tarefa(request, id):
+    # retorna o id da tarefa a ser removida
     tarefa_bd = tarefa_service.listar_tarefa_id(id)
     if request.method == "POST":
         tarefa_service.remover_tarefa(tarefa_bd)
