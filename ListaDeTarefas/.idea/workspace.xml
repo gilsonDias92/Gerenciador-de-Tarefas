@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3eb90-54b2-4f4c-97bf-2f94d1e0cd0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/services/tarefa_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/templates/tarefas/listar_tarefas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/tarefa_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/app/views/tarefa_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciador_de_tarefas/gerenciador_de_tarefas/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gerenciador_de_tarefas/app/static/app" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
